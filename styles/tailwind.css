@@ -1,0 +1,78 @@
+@import url("https://fonts.cdnfonts.com/css/american-captain-2");
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-9");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply outline-none m-0 p-0 box-border;
+   }
+
+    .grid_base {
+        @apply max-w-[1440px] mx-auto w-full;
+    }
+
+    .Titles {
+        @apply text-white font-Logo leading-[130px] text-[100px] lg:text-[130px];
+    }
+
+    .sub_titles {
+        @apply font-Logo leading-[110px] text-[60px] lg:text-[90px] 2xl:text-[110px];
+    }
+/*section-Page*/
+    .section {
+        @apply bg-section pt-24 w-full;
+    }
+
+    .paragraph {
+        @apply font-Link text-white;
+    }
+/*main-cards*/
+    .cards {
+        @apply max-w-[430px] h-[400px] flex flex-col justify-center content-center;
+    }
+
+    .title_card {
+        @apply text-[32px] font-bold mb-5 font-Link leading-[38px];
+    }
+
+    .paragraph_card {
+        @apply text-[24px] leading-7 font-medium;
+    }
+
+
+    .btn_default {
+        @apply w-[183px] h-[45px] pt-[4px] bg-transparent flex flex-row justify-center content-center rounded-lg border-white border-2 border-solid text-[24px] font-Link text-white;
+    }
+     /*cars-images*/
+    .gallery_cars {
+        @apply w-full h-full object-cover;
+    }
+/*form-page*/
+    .font_form {
+        @apply font-helvetica font-normal text-[20px] leading-[50px] text-white;
+    }
+
+    .input_form {
+        @apply bg-transparent border-b-[1px] w-full h-[31px];
+    }
+    .input_form::placeholder{
+        @apply text-white
+    }
+
+    .footer_card {
+        @apply w-[200px] flex flex-col justify-start gap-5 text-white font-Link;
+    }
+
+    /*navigation mobile*/
+   .screen.active>ul {
+        @apply w-[100%] h-auto bg-bgBlack_trasparent rounded-lg absolute right-[-40px] top-[-32px] p-12 pt-24 flex flex-col animate-[ShowMenu_0.5s_ease-in-out];
+    }
+
+    .screen.active>ul>li {
+        @apply w-[100%] mx-auto text-center text-[38px] pl-5 py-10 border-b-white border-b ;
+    }
+}

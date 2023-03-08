@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html class="scroll-smooth transition " lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Car</title>
+  <link rel="stylesheet" href="/dist/output.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+  <div
+    class="w-[130px] h-[130px] cursor-pointer rounded-full md:hidden bg-white fixed bottom-10 right-[40px] z-[999] flex justify-center content-center ">
+    <img class="w-[75px] h-[75px] mt-7" src="./assets/contact-us.png" alt="">
+  </div>
+
+  <header class="w-full h-28 flex justify-center content-center py-8 px-10 absolute z-10">
+    <nav class="flex justify-between items-center grid_base relative">
+
+      <div id="btn_mobile" class="z-10 w-[50px] h-[50px] flex absolute right-0 lg:hidden cursor-pointer">
+        <img class="img_mobile" src="./assets/menu-icons/menus.png" alt="">
+      </div>
+
+      <div class="w-[212px] h-12">
+        <h1 class="font-Logo text-5xl text-white">PRIME CAR</h1>
+      </div>
+      <div class="w-[390px] h-[29px] screen ">
+        <ul class=" text-white gap-10 font-Link text-2xl font-semibold leading-7 hidden lg:flex ">
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#cars">Cars</a></li>
+        </ul>
+      </div>
+      <div>
+        <button class="btn_default hidden lg:flex ">Contact Us</button>
+      </div>
+    </nav>
+  </header>
+
+  <div
+    class="bg-[url('/public/assets/background.webp')] w-full h-[1020px] flex items-center justify-end bg-cover bg-center relative px-10 ">
+    <div class="flex flex-col grid_base h-[535px] ">
+      <div class="Titles flex flex-col text-right drop-shadow-shadow">
+        <h1>MORE ECONOMY, <br /> SAME SPEED </h1>
+      </div>
+      <div class="flex flex-col w-full">
+        <div class="text-white text-right h-[190px] text-[24px] font-Link font-semibold leading-[38px]">
+          <p>
+            The most beloved <br />
+            cars of the moment for <br />
+            those who want to <br />
+            ride in style without spending too much
+          </p>
+        </div>
+        <div class="flex justify-end w-full">
+          <button
+            class="w-[187px] h-[53px] pt-[6px] bg-transparent flex flex-row justify-center content-start rounded-lg border-white border-2 border-solid text-[24px] font-Link text-white">
+            Discover
+            <i class="mt-2 ml-2"><img class="w-5 h-5" src="/public/assets/Vector.png" alt="" /></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--About Section-->
+  <section id="about" class="bg-section_blk w-full h-[727px] text-white pt-[60px] px-24 relative overflow-hidden">
+    <div class=" w-full  h-24 text-center Titles">
+      <h2>ABOUT US</h2>
+    </div>
+
+    <div
+      class="absolute bottom-[-95px] right-[-50px] font-Link text-[200px] leading-[239px] font-bold text-about_color opacity-[0.3] ">
+      <h2>about us</h2>
+    </div>
+
+    <div
+      class="mt-[95px] h-416px grid_base flex justify-center lg:justify-between content-center gap-0 lg:gap-[85px]   ">
+      <div
+        class=" w-[785px] max-h-[400px] overflow-hidden my-[48.5px] flex flex-col flex-nowrap text[24px] text-justify justify-around content-center leading-7 ">
+        <p>We pride ourselves at being able to get our customer into the car that they want, and more importantly, at
+          they price they are looking for.</p>
+
+        <p> We maintain outstanding customer service by listening to our customers and making sure that we meet their
+          needs. Even if you don't buy from us, we will offer free advice on whe to look for when buying a used car or
+          truck.</p>
+
+        </p> Our philosophy is to accomodate you, the customer, with outstanding service while providing you the highest
+        quality automobile needs at wholesale prices. We have a wide selection of vehicles and the expertise to deal
+        with what you are looking for.</p>
+      </div>
+
+      <div class="z-10"><img class="lg:w-[850px] lg:h-[416px] object-cover hidden lg:block  "
+          src="./assets/Rectangle 6.png" alt=""> </div>
+    </div>
+  </section>
+  <section id="benefits" class="section pb-[114px] pt-[90px]  h-auto text-white relative">
+    <div class="absolute top-0 left-0"><img src="./assets/Lines.svg" alt=""></div>
+    <div class="absolute bottom-0 right-0"><img src="./assets/Lines.png" alt=""></div>
+    <div class="w-full lg:h-[262px] text-center  grid_base">
+      <div class="sub_titles ">
+        <h2>All the benefits you will get <br> when you shop with us</h2>
+      </div>
+      <div class="mt-10 paragraph  text-[24px]">
+        <p>Take advantage of everything you can have now by buying your new car at Prime Car</p>
+      </div>
+    </div>
+    <!--benefits Seaction-->
+    <div
+      class=" test w-full h-auto  overflow-x-clip flex flex-col flex-wrap items-center lg:flex-row justify-center content-center gap-[80px] mt-[160px] px-10  ">
+      <div class="cards bg-lightGreen px-[34px] pb-[35px] rounded-2xl ">
+
+        <div class="w-[362px]  mx-auto h-[455px] flex flex-col gap-y-5 " style="position: relative; bottom: 40px;">
+          <div class=" w-[261px] h-[261px] flex justify-center mx-auto "> <img src="./assets/I3D/I3D/map.png" alt="">
+          </div>
+          <div class="max-w-190px text-center font-Link  ">
+            <h2 class="title_card">Several Headquarters</h2>
+            <div class="paragraph_card ">
+              <p>You can find several Prime Car stores around the United States!</p>
+
+              <p class="mt-3 "> <a class="border-b-[1px] border-white" href="">Find the store closest to you now</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards bg-redCard px-[34px] pb-[35px] rounded-2xl">
+
+        <div class="w-[362px] mx-auto h-[455px] flex flex-col gap-y-5 " style="position: relative; bottom: 50px;">
+          <div class="w-[261px] h-[261px] flex justify-center mx-auto  "> <img src="./assets/I3D/I3D/calendar.png"
+              alt=""></div>
+          <div class="max-w-190px text-center font-Link  ">
+            <h2 class="title_card">Shedule Your <br> Best Day</h2>
+            <div class="paragraph_card ">
+              <p>Choose the day and time to take a test drive for free!</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards bg-blueCard px-[34px] pb-[35px] rounded-2xl">
+
+        <div class="w-[362px] mx-auto h-[455px] flex flex-col gap-y-5 " style="position: relative; bottom: 10px;">
+          <div class="w-[261px] h-[261px] flex justify-center mx-auto   "> <img src="./assets/I3D/I3D/keys.png" alt="">
+          </div>
+          <div class="max-w-190px text-center font-Link  ">
+            <h2 class="title_card">Receive your car <br> right away</h2>
+            <div class="paragraph_card  mb-[60px] ">
+              <p>Close the contract and you get the keys right away</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cars" class="bg-section_blk w-full lg:h-[852px] pt-[100px] flex flex-col gap-[60px] px-4  lg:px-2">
+    <div class="grid_base">
+      <div class="w-full h-auto 2xl:h-[152px] pl-0 lg:pl-[100px]">
+        <div>
+          <h2 class="sub_titles text-white ">THE CARS THAT ARE HOT RIGHT NOW </h2>
+        </div>
+        <div class=" mt-[40px] font-Link text-[24px] text-white ">
+          <p class="leading-7">Buy yours and be the most stylish in the neighborhood</p>
+        </div>
+      </div>
+
+      <div class=" grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3   gap-8 mt-[60px] ">
+        <div class="w-full h-[250px]"><img class="gallery_cars" src="./assets/Cars/Car.png" alt=""></div>
+        <div class="w-full h-[250px]"><img class="gallery_cars" src="./assets/Cars/Rectangle 2.png" alt=""></div>
+        <div class="w-full h-[250px]"><img class="gallery_cars" src="./assets/Cars/Car (1).png" alt=""></div>
+        <div class="w-full h-[250px]"><img class="gallery_cars" src="/public/assets/moreCars/Car (1).png" alt=""></div>
+        <div class="w-full h-[250px]"><img class="gallery_cars" src="./assets/moreCars/Car (2).png" alt=""></div>
+        <div class="w-full h-[250px]"><img class="gallery_cars" src="./assets/moreCars/Car (3).png" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-section lg:h-[1295px] py-[100px] relative overflow-hidden">
+    <div class="absolute left-0 top-[95px] ">
+      <img class="opacity-60" src="./assets/I3D/Star 2.png" alt="">
+    </div>
+  
+    <div
+      class="grid_base justify-center text-center 2xl:text-left lg:flex lg:justify-between content-center mb-[50px] px-4 ">
+      <div>
+        <h3 class="Titles">BE AMAZED BY <br> THE POWER</h3>
+      </div>
+      <div class="w-[417px] h-[114px] text-white my-[57px] font-Link m-auto text-[32px] leading-[38px] ">
+        <div class="text-left z-10">
+          <p>Speed and economy together in one place, use and abuse your car's potential.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid_base px-3">
+      <iframe width="100%" height="817px" src="https://www.youtube.com/embed/KyS2Wckan90" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section class="  bg-section2 relative  pb-[116px] lg:pt-[116px]">
+    <div
+      class="hidden lg:block absolute top-10 left-0 font-Link text-[200px] leading-[239px] font-bold text-about_color opacity-[0.3]  ">
+      <h2>contact us</h2>
+    </div>
+    <div class=" grid_base flex px-24 justify-between items-center flex-col lg:flex-row lg:px-4 ">
+      <div class="max-w-[660px] text-center lg:text-left h-auto my-[55px] z-10 ">
+        <h4 class="Titles text-[120px]">CONTACT US</h4>
+        <p class="font-Link text-[30px] leading-[50px] text-white">To find out more information about cars and quotes,
+          fill out the form on the side or contact us by phone.</p>
+      </div>
+
+      <div class="max-w-[672px] flex justify-center content-center font_form ">
+
+        <div class="  flex w-full flex-col flex-wrap  justify-center content-center mt-[20px] ">
+          <div class="mb-[50px] " style="display: grid; grid-template-columns: repeat(2,1fr); gap: 20px;">
+            <input class="input_form " type="text" placeholder="Your Name">
+            <input class="input_form " type="text" placeholder="Your Email">
+          </div>
+
+          <div class="mb-[50px]" style="display: grid; grid-template-columns:  repeat(2,1fr); gap: 20px;">
+            <div><input class="input_form " type="text" placeholder="Phone Number"></div>
+            <div class=" relative ">
+              <select class="input_form  focus:outline-none focus:shadow-outline bg-section2">
+                <option>Country</option>
+                <option>Brazil</option>
+                <option>EUA</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div><input class="input_form w-full mb-[50px]" type="text" placeholder="Menssage"> </div>
+
+          <div class="w-[158px] h-[45px] "><button
+              class="pt-[6px] w-[158px] h-[45px] btn_default flex justify-center content-center leading-7 "
+              type="submit">Submit</button></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class=" w-full relative">
+    <div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13783.300810367085!2d-97.73272511779635!3d30.270561257379228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5b96a8cf2af%3A0x759c9742828553e9!2sCentral%20East%20Austin%2C%20Austin%2C%20TX%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1677950100868!5m2!1spt-BR!2sbr"
+        width="100%" height="317px" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!--Footer Page-->
+  <footer class="bg-section2 py-[60px]">
+    <div class="grid_base h-auto flex gap-3 justify-between flex-col lg:flex-row text-white mb-[60px] px-24 lg:px-4">
+      <div class=" Titles h-auto lg:h-[100px]">
+        <h3 style="font-size: 100px ; line-height: 100px;">PRIME CAR</h3>
+      </div>
+
+      <div class=" flex gap-[60px] flex-col lg:flex-row flex-wrap ">
+        <div class="footer_card">
+          <h3 class="w-[210px] text-[32px] font-bold leading-8">Where Are We</h3>
+          <ul style=" margin-top: 20px; display: grid; gap: 20px; font-size: 17px; line-height: 11px; color: #BDBDBD;">
+            <li>Georgia</li>
+            <li> texas</li>
+            <li> California</li>
+            <li>Virginia</li>
+            <li> Colorado</li>
+            <li>Pennsylvania</li>
+            <li>Massachusetts</li>
+          </ul>
+        </div>
+
+
+        <div class="footer_card ">
+          <div>
+            <h3 class="text-[32px] font-bold leading-8">Quick Links</h3>
+          </div>
+          <ul style=" margin-top: 20px; display: grid; gap: 20px; font-size: 17px; line-height: 11px; color: #BDBDBD;">
+            <li><a href="#about">About Us</a></li>
+            <li> <a href=""></a>Our Services</li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+
+
+        <div class="footer_card">
+          <h3 class="text-[32px] font-bold leading-8">Email Us</h3>
+          <ul style=" margin-top: 20px; display: grid; gap: 20px; font-size: 17px; line-height: 11px; color: #BDBDBD;">
+            <li><a href="">Contact@primecar.com</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="footer_card ">
+          <h3 class="text-[32px] font-bold leading-8">Call Us</h3>
+          <ul style="  margin: 20px 0px; display: grid; gap: 20px; font-size: 17px; line-height: 11px; color: #BDBDBD;">
+            <li>+999-9-999-9999 </li>
+            <li> +111-11-111-1111</li>
+          </ul>
+          <div style="display: flex; gap: 15px;">
+            <div><i><a href=""><img src="/public/assets/icons/icons8-facebook-novo-24.png" alt=""></a></i></div>
+            <div><i><a href=""><img src="./assets/icons/linkd..png" alt=""></a></i></div>
+
+            <div><i><a href=""><img src="./assets/icons/instagram.png" alt=""></a></i></div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div
+      class="grid_base h-8 flex justify-between content-center text-[15px] leading-8 text-white font-helvetica px-24 lg:px-4 ">
+      <div class="flex gap-[34px]">
+        <span>Privacy Police</span>
+        <span>term And CondItions</span>
+      </div>
+      <div><span> Copyright © 2022 Prime Car. All Rights Reserved</span></div>
+    </div>
+
+
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="/slick.js"></script>
+  <script type="text/javascript" src="/script.js"></script>
+</body>
+
+
+
+</html>
